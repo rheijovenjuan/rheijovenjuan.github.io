@@ -2,51 +2,53 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rhei Joven Juan | Portfolio</title>
+<title>Rhei Joven Genove Juan | Portfolio</title>
 <style>
-:root { --bg: #f4f7f6; --text: #2d3436; --accent: #0984e3; --muted: #636e72; }
-body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; padding: 20px; }
-.container { max-width: 800px; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-h1, h2 { color: #1e272e; }
-h1 { margin-top: 0; border-bottom: 2px solid var(--accent); display: inline-block; }
-section { margin-bottom: 30px; }
-.skill-tag { display: inline-block; background: #dfe6e9; padding: 5px 12px; margin: 5px; border-radius: 4px; font-size: 0.9em; }
-a { color: var(--accent); text-decoration: none; }
-@media (max-width: 600px) { .container { padding: 20px; } }
+body{font-family:system-ui,-apple-system,sans-serif;line-height:1.6;max-width:800px;margin:0 auto;padding:20px;color:#333}
+header{border-bottom:2px solid #eee;padding-bottom:20px;margin-bottom:20px}
+h1{margin:0;color:#000}
+.section{margin-bottom:30px}
+.card{background:#f9f9f9;padding:15px;border-radius:8px;margin-bottom:10px}
+.tag{display:inline-block;background:#e0e0e0;padding:2px 8px;border-radius:4px;font-size:0.8em;margin-right:5px}
+footer{font-size:0.9em;color:#666;text-align:center;margin-top:50px}
 </style>
 </head>
 <body>
-<div class="container">
 <header>
-<h1>Rhei Joven Juan</h1>
-<p><strong>Test Development Engineer | Applied Physics & AI Researcher</strong></p>
+<h1>Rhei Joven Genove Juan</h1>
+<p>Researcher & Academic | University of the Philippines Diliman</p>
 </header>
-<section>
-<h2>About Me</h2>
-<p>Applied Physics graduate from the University of the Philippines Diliman, currently pursuing a Masters of Engineering in Artificial Intelligence. Specialized in automotive camera systems, image processing, and algorithm validation with a focus on high-precision optical testing.</p>
+<section class="section">
+<h2>Research Interests</h2>
+<span class="tag">Image Enhancement</span>
+<span class="tag">Advanced Image Processing</span>
+<span class="tag">Quality Assessment</span>
 </section>
-<section>
-<h2>Skills</h2>
-<div class="skill-tag">Python</div><div class="skill-tag">Computer Vision</div><div class="skill-tag">Image Processing</div>
-<div class="skill-tag">Automotive Camera Systems</div><div class="skill-tag">Data Analysis</div><div class="skill-tag">AI/ML</div>
-</section>
-<section>
-<h2>Experience</h2>
-<p><strong>Test Development Engineer</strong> | Integrated Micro-Electronics, Inc. (IMI Global)<br>
-Focusing on automotive camera system validation, optical testing, and hardware-software integration.</p>
-</section>
-<section>
+<section class="section">
 <h2>Selected Publications</h2>
-<ul>
-<li><strong>Vision-based bicycle and motorcycle detection using a YOLO-based Network</strong> (2021, J. Phys: Conf. Ser.) - 6 citations</li>
-<li><strong>Effect of downsampling on the quality and resolution of super-resolved images</strong> (2019, SPP)</li>
-</ul>
-</section>
-<section>
-<h2>Contact</h2>
-<p>Connect via <a href="https://www.linkedin.com/in/rhei-joven-juan">LinkedIn</a> or academic profile at <a href="https://openalex.org/authors/A5038337722">OpenAlex</a>.</p>
-</section>
+<div class="card">
+<strong>Vision-based bicycle and motorcycle detection using a YOLO-based Network</strong><br>
+<em>Journal of Physics: Conference Series (2021)</em> | Citations: 6
 </div>
-<script>console.log("Portfolio loaded for Rhei Joven Juan");</script>
+<div class="card">
+<strong>Effect of downsampling on the quality and resolution of super-resolved images</strong><br>
+<em>Proceedings of the Samahang Pisika ng Pilipinas (2019)</em> | Citations: 0
+</div>
+</section>
+<section class="section">
+<h2>Academic Profile</h2>
+<p>Total Papers: 2 | h-index: 1</p>
+<p>Affiliated with the University of the Philippines Diliman, focusing on computer vision and image processing methodologies.</p>
+</section>
+<section class="section">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:rjjuan@up.edu.ph">rjjuan@up.edu.ph</a></p>
+</section>
+<footer>
+&copy; 2024 Rhei Joven Genove Juan. Built for academic portfolio.
+</footer>
+<script>
+console.log("Portfolio loaded successfully.");
+</script>
 </body>
 </html>
