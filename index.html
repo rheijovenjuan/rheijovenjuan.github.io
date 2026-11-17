@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhei Joven Juan Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f1712;
+      --surface: #16201a;
+      --surface-alt: #1e2b24;
+      --text: #e2e8e4;
+      --text-muted: #94a3b8;
+      --accent: #22c55e;
+      --accent-soft: rgba(34, 197, 94, 0.1);
+      --border: #2d3e35;
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { 
+      font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+      background: var(--bg); 
+      color: var(--text); 
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    main { max-width: 800px; margin: 0 auto; }
+    header { margin-bottom: 3rem; border-bottom: 1px solid var(--border); padding-bottom: 2rem; }
+    h1 { font-size: 2.5rem; color: #fff; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    h2 { font-size: 1.5rem; color: var(--accent); margin: 2.5rem 0 1rem; border-left: 3px solid var(--accent); padding-left: 1rem; }
+    h3 { color: var(--text); margin-bottom: 0.5rem; }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s; }
+    a:hover { border-bottom-color: var(--accent); }
+    .card { 
+      background: var(--surface); 
+      border: 1px solid var(--border); 
+      border-radius: var(--radius); 
+      padding: 1.5rem; 
+      margin-bottom: 1rem;
+    }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    ul { list-style: none; margin-top: 0.5rem; }
+    li { margin-bottom: 0.4rem; font-size: 0.95rem; color: var(--text-muted); position: relative; padding-left: 1.2rem; }
+    li::before { content: "▹"; position: absolute; left: 0; color: var(--accent); }
+    footer { margin-top: 4rem; text-align: center; color: var(--text-muted); font-size: 0.8rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+    .badge { background: var(--accent-soft); color: var(--accent); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Rhei Joven Genove Juan</h1>
+      <p style="color: var(--text-muted); font-size: 1.1rem;">Academic Researcher & Technical Developer</p>
+      <p style="margin-top: 0.5rem;">Affiliation: University of the Philippines Diliman</p>
+    </header>
+
+    <section>
+      <h2>Research & Publications</h2>
+      <div class="card">
+        <h3>Academic Profile Overview</h3>
+        <p>Focused on Image Enhancement, Quality Assessment, and Computer Vision. Active contributor to the physics and engineering community.</p>
+        <ul style="margin-top: 1rem;">
+          <li><strong>Vision-based bicycle and motorcycle detection using a YOLO-based Network</strong> (2021, Journal of Physics: Conference Series) — <em>6 Citations</em></li>
+          <li><strong>Effect of downsampling on the quality and resolution of super-resolved images</strong> (2019, SPP)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Voice Agent Architecture</h2>
+      <div class="card">
+        <h3>Full-Duplex RPi Integration</h3>
+        <p>Developing low-latency voice pipelines utilizing Model Context Protocol (MCP) standards for real-time interaction.</p>
+        <div class="grid" style="margin-top: 1.5rem;">
+          <div>
+            <span class="badge">Pipeline</span>
+            <ul>
+              <li>Silero VAD (On-device)</li>
+              <li>MCP Transport (ASR/TTS)</li>
+              <li>Barge-in Interrupt Logic</li>
+            </ul>
+          </div>
+          <div>
+            <span class="badge">Metrics</span>
+            <ul>
+              <li>E2E Latency (Target p95)</li>
+              <li>WER (ASR Accuracy)</li>
+              <li>TTFT / TTFB Monitoring</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Links</h2>
+      <div class="card">
+        <ul style="margin: 0;">
+          <li>OpenAlex Profile: <a href="https://openalex.org/authors/A5039327575" target="_blank">Rhei Joven Genove Juan</a></li>
+          <li>Semantic Scholar Profile: <a href="https://www.semanticscholar.org/author/R.-J.-G.-Juan/145899799" target="_blank">R. J. G. Juan</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Rhei Joven Genove Juan. Built for research and portfolio documentation.
+  </footer>
+</body>
+</html>
