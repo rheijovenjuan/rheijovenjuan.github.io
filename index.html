@@ -1,1 +1,65 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/><title>Portfolio Website of Rhei Joven Juan</title><style>body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#06090f;color:#f1f5f9;line-height:1.6;}.wrap{max-width:960px;margin:0 auto;padding:56px 24px;}h1{font-size:clamp(2rem,5vw,3.2rem);margin:0 0 12px;letter-spacing:-0.03em;}.sub{color:#94a3b8;font-size:1.05rem;margin-bottom:32px;}.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}.card{background:#0b111c;border:1px solid rgba(16,185,129,0.25);border-radius:16px;padding:20px;}.card p{margin:0;color:#cbd5e1;font-size:0.95rem;}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;}.chip{padding:8px 14px;border-radius:10px;background:rgba(16,185,129,0.14);color:#6ee7b7;text-decoration:none;font-size:0.88rem;border:1px solid rgba(16,185,129,0.3);}</style></head><body><main class='wrap'><h1>Rhei Joven Juan</h1><p class='sub'>Create a personal portfolio website showcasing skills, projects, and contact information.</p><section class='grid'><div class="card"><p>OpenAlex Academic Profile:</p></div><div class="card"><p>Name: Rhei Joven Genove Juan | Affiliation: University of the Philippines Diliman</p></div><div class="card"><p>Works: 1 | Citations: 0</p></div><div class="card"><p>Research Topics: Image Enhancement Techniques, Advanced Image Processing Techniques, Image and Video Quality Assessment</p></div><div class="card"><p>Top Cited Publications:</p></div><div class="card"><p>- &quot;Effect of downsampling on the quality and resolution of super-resolved images&quot; (2019, Proceedings of the Samahang Pisika ng Pilipinas) — 0 citations</p></div><div class="card"><p>Semantic Scholar Profile:</p></div><div class="card"><p>Name: R. J. G. Juan</p></div><div class="card"><p>Papers: 2 | Citations: 6 | h-index: 1</p></div><div class="card"><p>Selected Papers:</p></div><div class="card"><p>- &quot;Vision-based bicycle and motorcycle detection using a YOLO-based Network&quot; (2021, Journal of Physics, Conference Series) — 6 citations</p></div><div class="card"><p>- &quot;Effect of downsampling on the quality and resolution of super-resolved images&quot; (2019) — 0 citations</p></div><div class="card"><p>ORCID Registry: Margarita Borges Hernandez (0000-0001-7066-0766)</p></div></section><div class='chips'><a class="chip" href="https://openalex.org/A5089531712" target="_blank" rel="noopener">Rhei Joven Genove Juan — OpenAlex</a><a class="chip" href="https://www.semanticscholar.org/author/2106568221" target="_blank" rel="noopener">R. J. G. Juan — Semantic Scholar</a><a class="chip" href="https://orcid.org/0000-0001-7066-0766" target="_blank" rel="noopener">Margarita Borges Hernandez — ORCID</a></div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rhei Joven Juan Portfolio</title>
+<style>
+:root { --orange: #f97316; --dark: #1f2937; --light: #f3f4f6; }
+body { font-family: system-ui, sans-serif; line-height: 1.6; color: var(--dark); margin: 0; background: var(--light); }
+header { background: var(--orange); color: white; padding: 3rem 1rem; text-align: center; }
+.container { max-width: 800px; margin: auto; padding: 2rem; }
+section { background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+h2 { color: var(--orange); border-bottom: 2px solid var(--orange); display: inline-block; }
+.paper { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
+footer { text-align: center; padding: 2rem; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header>
+<h1>Rhei Joven Genove Juan</h1>
+<p>Researcher | University of the Philippines Diliman</p>
+</header>
+<div class="container">
+<section>
+<h2>About</h2>
+<p>Academic researcher specializing in Image Enhancement, Advanced Image Processing, and Image/Video Quality Assessment. Dedicated to exploring computer vision applications and resolution optimization.</p>
+</section>
+<section>
+<h2>Research Focus</h2>
+<p>My work centers on developing robust algorithms for image processing. Key interests include:</p>
+<ul>
+<li>Image Enhancement Techniques</li>
+<li>Advanced Image Processing</li>
+<li>Quality Assessment (Image & Video)</li>
+<li>YOLO-based Detection Networks</li>
+</ul>
+</section>
+<section>
+<h2>Selected Publications</h2>
+<div class="paper">
+<strong>Vision-based bicycle and motorcycle detection using a YOLO-based Network</strong><br>
+<em>Journal of Physics: Conference Series (2021)</em> | Citations: 6
+</div>
+<div class="paper">
+<strong>Effect of downsampling on the quality and resolution of super-resolved images</strong><br>
+<em>Proceedings of the Samahang Pisika ng Pilipinas (2019)</em> | Citations: 0
+</div>
+</section>
+<section>
+<h2>Academic Metrics</h2>
+<p><strong>Affiliation:</strong> University of the Philippines Diliman</p>
+<p><strong>Semantic Scholar h-index:</strong> 1</p>
+<p><strong>Total Papers:</strong> 2</p>
+</section>
+</div>
+<footer>
+<p>&copy; 2023 Rhei Joven Juan | Built for Academic Portfolio</p>
+</footer>
+<script>
+console.log("Portfolio loaded for Rhei Joven Juan");
+document.querySelectorAll('a').forEach(link => {
+    link.style.color = 'var(--orange)';
+});
+</script>
+</body>
+</html>
